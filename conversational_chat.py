@@ -27,3 +27,4 @@ while True:
     for chunk in response:
         if chunk.text:
             print("Chatbot: ", chunk.text)
+
