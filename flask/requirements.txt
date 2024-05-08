@@ -1,0 +1,5 @@
+Flask==3.0.3
+google.cloud
+google.generativeai
+gunicorn==22.0.0
+google-cloud-language

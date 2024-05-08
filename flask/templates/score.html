@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism Screener App: Q-CHAT-10 Questionnaire</title>
+</head>
+<body>
+    <h1>Autism Screener App: Q-CHAT-10 Score</h1>
+    <p>Your total Q-CHAT-10 Score: {{ total_score }}</p>
+    {% if total_score >= 3 %}
+        <p>The health professional may consider referring your child for a multi-disciplinary assessment.</p>
+    {% endif %}
+    <a href="/">Back to Homepage</a>
+</body>
+</html>

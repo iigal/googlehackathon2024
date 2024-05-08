@@ -16,7 +16,6 @@ flow = InstalledAppFlow.from_client_secrets_file(
 
 # Start the OAuth 2.0 flow to obtain user consent and generate credentials
 credentials = flow.run_local_server(port=0)
-
 # Initialize Google Cloud Natural Language client with the obtained credentials
 language_client = language_v1.LanguageServiceClient(credentials=credentials)
 
